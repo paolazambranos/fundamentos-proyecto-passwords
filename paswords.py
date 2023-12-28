@@ -5,9 +5,9 @@ def leer_archivo_passwords():
     
     for linea in archivo_passwords:
         passwords.append(linea)
-
-    print("arreglo de contraseñas: ", passwords)
-
+   
+    #print("arreglo de contraseñas: ", passwords)
+    print("La cantidad de contraseñas a evaluar son: ", len(passwords))
 
 print ("Bienvenidos al proyecto de Paola Zambrano")
 leer_archivo_passwords()

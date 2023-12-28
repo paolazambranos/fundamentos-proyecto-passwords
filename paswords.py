@@ -4,6 +4,7 @@ def leer_archivo_passwords(nombre_archivo):
     lineas = []
     
     for linea in archivo:
+        linea = linea[:-1]
         lineas.append(linea)
    
     print("La cantidad de lineas son: ", len(lineas))

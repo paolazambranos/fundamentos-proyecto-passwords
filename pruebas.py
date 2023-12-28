@@ -1,22 +1,18 @@
 print("------------ inicio ")
 
-cantidad = 0
-tiene_minuscula = 0
-puntaje_final = 0
 
-clave = "12345678ab"
-cantidad = len(clave)
+
+clave = "123!45678ab$A"
+
 
 for caracter in clave:
-    if caracter.islower():
-        tiene_minuscula = 1
+    if not caracter.isalnum():
         print(caracter)
-        break
 
 
-puntaje_final = cantidad + tiene_minuscula
 
-print(puntaje_final)
+
+
 
 
 

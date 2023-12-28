@@ -14,7 +14,6 @@ def calcular_puntaje_seguridad(clave):
     print("----")
     print("Comenzamos a calcular el puntaje de seguridad para la clave: ", clave)
     puntaje_final = 0
-
     tiene_minuscula = 0
     tiene_numero = 0
     cant_caracteres = len(clave)

@@ -11,10 +11,17 @@ def leer_archivo_passwords(nombre_archivo):
     return lineas
 
 def calcular_puntaje_seguridad(clave):
+    print("----")
     print("Comenzamos a calcular el puntaje de seguridad para la clave: ", clave)
-    return 0
+    puntaje_final = 0
 
+    cant_caracteres = len(clave)
+    print("La cantidad de caracteres son:", cant_caracteres)
 
+    print("El puntaje para la contraseña es: ", puntaje_final)
+    print("----")
+    print("")
+    return puntaje_final
 
 print ("Bienvenidos al proyecto de Paola Zambrano")
 passwords = leer_archivo_passwords("passwords.txt")

@@ -17,6 +17,8 @@ def calcular_puntaje_seguridad(clave):
     tiene_minuscula = 0
     tiene_numero = 0
     tiene_mayuscula = 0
+    puntaje_simbolos = 0
+    contador_simbolos = 0 
     cant_caracteres = len(clave)
     print("La cantidad de caracteres son:", cant_caracteres)
 
@@ -38,9 +40,19 @@ def calcular_puntaje_seguridad(clave):
             print("Si tiene mayuscula: ", caracter)
             break
 
-    
-    puntaje_final = cant_caracteres + tiene_minuscula + tiene_numero + tiene_mayuscula
-
+    for caracter in clave:
+        es_simbolo = not caracter.isalnum()
+        if es_simbolo:
+            contador_simbolos = contador_simbolos + 1
+            print("Si tiene simbolos: ", caracter)
+            print("simbolo numero: ", contador_simbolos)
+            if contador_simbolos == 1: 
+                puntaje_simbolos = 3
+            else: 
+                puntaje_simbolos =  puntaje_simbolos + 2
+            print("puntaje de simbolo total: ", puntaje_simbolos)
+        
+    puntaje_final = cant_caracteres + tiene_minuscula + tiene_numero + tiene_mayuscula + puntaje_simbolos
     print("El puntaje para la contraseña es: ", puntaje_final)
     print("----")
     print("")

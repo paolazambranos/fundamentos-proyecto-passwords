@@ -8,6 +8,7 @@ def leer_archivo_passwords(nombre_archivo):
         lineas.append(linea)
    
     print("La cantidad de lineas son: ", len(lineas))
+    archivo.close()
     return lineas
 
 def calcular_puntaje_seguridad(clave, patterns):
@@ -61,15 +62,39 @@ def calcular_puntaje_seguridad(clave, patterns):
 
     puntaje_final = cant_caracteres + tiene_minuscula + tiene_numero + tiene_mayuscula + puntaje_simbolos - puntaje_patrones
     print("El puntaje para la contraseña es: ", puntaje_final)
+
+    categoria = "pendiente-por-calcular"
+    
     print("----")
     print("")
-    return puntaje_final
+    return [clave, categoria, puntaje_final]
+
+    
+def esribir_datos_archivo(matriz_de_informacion):
+    archivo_write = open("datos_archivos.txt", "w")
+    archivo_write.write("Hola mundo 2")
+    for fila in matriz_de_informacion:
+        for i in range(len(fila)):
+            dato = fila[i]
+            archivo_write.write(str(dato))
+            if i == 0 or i == 1:
+                archivo_write.write(" | ") 
+            else: 
+                archivo_write.write("\n")
+    archivo_write.close()
+
 
 print ("Bienvenidos al proyecto de Paola Zambrano")
 passwords = leer_archivo_passwords("passwords.txt")
 patterns = leer_archivo_passwords("patterns.txt")
 
+matriz_de_informacion = []
 for clave in passwords: 
-    calcular_puntaje_seguridad(clave, patterns)
+    informacion_de_clave = calcular_puntaje_seguridad(clave, patterns)
+    matriz_de_informacion.append(informacion_de_clave)
 
+# falta ordenar la matriz_de_informacion por: ???
+
+
+esribir_datos_archivo (matriz_de_informacion)
 print("El proyecto ha llegado a su fin y ha sido ejecutado con exito")

@@ -1,6 +1,6 @@
 print("------------ inicio ")
 
-clave = "12adminPaola"
+clave = "123adminPaola"
 patterns = ["admin" , "123", "Paola", "22"]
 print(patterns)
 puntaje_patrones = 0 
@@ -21,3 +21,10 @@ for p in patterns:
     print(p)
 
 print("------------ fin ")
+
+matriz_de_informacion = [
+    ["clave123", 55, "moderada"],
+    ["pepito", 15, "debil"]
+]
+x = matriz_de_informacion[1][2]
+print(x)

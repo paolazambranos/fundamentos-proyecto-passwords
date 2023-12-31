@@ -62,9 +62,24 @@ def calcular_puntaje_seguridad(clave, patterns):
 
     puntaje_final = cant_caracteres + tiene_minuscula + tiene_numero + tiene_mayuscula + puntaje_simbolos - puntaje_patrones
     print("El puntaje para la contraseña es: ", puntaje_final)
-
-    categoria = "pendiente-por-calcular"
     
+    
+    if puntaje_final <= 15:
+            print("Pertenece a la categoria: debil")
+            categoria = "debil"
+    elif puntaje_final <= 20:
+            print("Pertenece a la categoria: moderada")
+            categoria = "moderada"
+    elif puntaje_final <= 35:
+        print("Pertenece a la categoria: buena")
+        categoria = "buena"
+    elif puntaje_final <= 100:
+        print("Pertenece a la categoria: excelente") 
+        categoria = "excelente"
+    else: 
+        print("Pertenece a la categoria: impenetrable")
+        categoria = "impenetrable"
+
     print("----")
     print("")
     return [clave, categoria, puntaje_final]
@@ -72,7 +87,6 @@ def calcular_puntaje_seguridad(clave, patterns):
     
 def esribir_datos_archivo(matriz_de_informacion):
     archivo_write = open("datos_archivos.txt", "w")
-    archivo_write.write("Hola mundo 2")
     for fila in matriz_de_informacion:
         for i in range(len(fila)):
             dato = fila[i]
@@ -82,7 +96,6 @@ def esribir_datos_archivo(matriz_de_informacion):
             else: 
                 archivo_write.write("\n")
     archivo_write.close()
-
 
 print ("Bienvenidos al proyecto de Paola Zambrano")
 passwords = leer_archivo_passwords("passwords.txt")
@@ -94,7 +107,6 @@ for clave in passwords:
     matriz_de_informacion.append(informacion_de_clave)
 
 # falta ordenar la matriz_de_informacion por: ???
-
 
 esribir_datos_archivo (matriz_de_informacion)
 print("El proyecto ha llegado a su fin y ha sido ejecutado con exito")

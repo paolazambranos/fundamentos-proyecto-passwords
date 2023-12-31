@@ -97,6 +97,16 @@ def esribir_datos_archivo(matriz_de_informacion):
                 archivo_write.write("\n")
     archivo_write.close()
 
+def ordenamiento(matriz_de_informacion):
+
+    for i in range(len(matriz_de_informacion)):
+        for j in range(len(matriz_de_informacion) - 1 - i):
+            if matriz_de_informacion[j][2] < matriz_de_informacion[j + 1][2]:
+                aux = matriz_de_informacion[j]
+                matriz_de_informacion[j] = matriz_de_informacion[j + 1]
+                matriz_de_informacion[j + 1] = aux
+    return matriz_de_informacion
+
 print ("Bienvenidos al proyecto de Paola Zambrano")
 passwords = leer_archivo_passwords("passwords.txt")
 patterns = leer_archivo_passwords("patterns.txt")
@@ -106,7 +116,6 @@ for clave in passwords:
     informacion_de_clave = calcular_puntaje_seguridad(clave, patterns)
     matriz_de_informacion.append(informacion_de_clave)
 
-# falta ordenar la matriz_de_informacion por: ???
-
+matriz_de_informacion = ordenamiento(matriz_de_informacion)
 esribir_datos_archivo (matriz_de_informacion)
 print("El proyecto ha llegado a su fin y ha sido ejecutado con exito")

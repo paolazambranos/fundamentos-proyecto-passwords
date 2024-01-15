@@ -52,12 +52,12 @@ darkish hart beanies gay unhand communes fluky acarus megacycles aye | excelente
 t11V6MB%m\6z1JmYJ`31spx)4xPfxG7BjJ?myuJ}DgHGHXGDu>{msNrZ|aDMin: | excelente | 87
 F*WebC:bxJU9L!adEx@kuhg^853fZ6*36MCQWVCYdmP54qN&uS@YNy$gvwHT% | excelente | 85
 2GQ"$1`K']pwdFF69SCZ(e+mH^cn^}U,vj+5d61Dx{Ekr~73# | excelente | 83
-VPFZcJuCePx9GF681cqfhuQtrCrCGnsm\Futbol146$rElUMES"chArS~BUTleRShip= | excelente | 82
 E5SMb[79HedF]dSq2BTpuCCyer7{`Em8B{HWtS,fMF3rq3xdK^NkxnkwmClD: | excelente | 81
 VPfzCJUcEPx6GF266CQfHuqtRcRCgnSM]fUtBOL760=relumes-chars-butlership | excelente | 79
 2gq^%5%k^^pwdff89scz%e&mh!cn%!u*vj@6d57dx&ekr%76 | excelente | 79
 t94v2mb:M\5z2jMYj/25sPX.2xpfxG2bJJ|MYuJ{dgHgHXGdU(,mSNRz,admin | excelente | 79
 E2sMB%89HEdF^DSq4btpUCCyer6@%em2b@HwTs&Fmf5rq5xdk&nkXNKWMcLD | excelente | 78
+VPFZcJuCePx9GF681cqfhuQtrCrCGnsm\Futbol146$rElUMES"chArS~BUTleRShip= | excelente | 77
 SCouREr@CroCKInG;oINt:ZHut084C1T)tJkm\$ZYV9uF0l> | excelente | 66
 SCoUrEr)CroCkIng)oint<zhuT488c2t%tjkm_&ZYV7uf9L& | excelente | 66
 dwKPW$xT6ymh=07^YkugELjQy2XKY?9A#qmbc3(GDH1$ | excelente | 62
@@ -74,7 +74,6 @@ iOuNTypulk@ZhuT405C2T/TJkm!}zYV9uf1l? | excelente | 51
 v7qUyDJL,fMdH8p6hh5Ul|F(wtABMk<^$ | excelente | 49
 EStOeSUNAcONTRASeñA.eRKjoConTRaSEÑA/hola1234567* | excelente | 48
 iOuNtyPUlk&zHUt953c6T&TJkM&#ZYV6UF7L | excelente | 48
-Hola8341895?~ZxcVBnmqwe(673862125A} | excelente | 47
 DWkPw=xt2Ymh^00+yKuGELjQy2xKY^1a< | excelente | 47
 coNTRaSEñA8_&estOeSUnACOntrAseÑA<< | excelente | 46
 RJreIJT46524I95K5Fwe3\,-/estoesunacontraseña | excelente | 46
@@ -82,10 +81,10 @@ v9QuYdjL@FMDH5p7Hh3UL^f%WtABmK@! | excelente | 46
 pASSWorD735;.iNGRESO(CoNTrasEñA_ | excelente | 44
 DWKPW%xt3ymh^23@YKUgeLjqY2XkY#6a | excelente | 44
 eSTOeSuNacONTRASeña{.0/hkuUS5bQ$ | excelente | 44
-COnTrASEÑA8.%EstoEsUnaContraseña# | excelente | 43
 @y<Gbp.s>ADmIN452<password123 | excelente | 43
 mYsqcQnxYJxZ3EtXGRDtQ7B61FFZ2X2n\futbol123 | excelente | 43
 mphb4|j35PbA9q9QHgT8C7HcmuX=3Qup, | excelente | 43
+Hola8341895?~ZxcVBnmqwe(673862125A} | excelente | 42
 estoEsuNaconTRASEña}<7&HKuuS4bQ | excelente | 41
 MPhB7@J53PBa2q8QHGt6c5hCMUX%3QUp | excelente | 40
 mySQcqnXyJxZ4EtxgrDTQ4b23ffz3x6N? | excelente | 39
@@ -100,6 +99,7 @@ wcey8vay2xYsc9La21yaXyv4udQuuHTT | buena | 35
 IngrESo~coNtRASeÑa378"7A* | buena | 35
 vpFzcjUcEpx7GF782CqFhUqtrcrcgnSm | buena | 35
 mysqcqnxyjxz5etxgrdtq8b24ffz3x8n | buena | 34
+COnTrASEÑA8.%EstoEsUnaContraseña# | buena | 33
 INgRESOADminIstradOR279=: | buena | 33
 rjreijt43098i54k3fwe4%&/ | buena | 33
 xkufshgvdqndjvgggtuguqxbyqgevdrm | buena | 33
@@ -131,7 +131,6 @@ admINIStRADOR< | moderada | 19
 ingresoadministrador123* | moderada | 19
 781T5<t5-l | moderada | 18
 ingreso-contraseña123*4A | moderada | 17
-CONTRASEÑA1* | moderada | 17
 YgT24388RF( | moderada | 17
 IOuntYpUlK) | moderada | 16
 TRAMpormuS: | moderada | 16
@@ -148,5 +147,6 @@ IouNTypULK | debil | 12
 gyCrYJ4D | debil | 11
 administrador | debil | 9
 adios1234567* | debil | 8
+CONTRASEÑA1* | debil | 7
 admin123 | debil | 5
 hola1234 | debil | 5
